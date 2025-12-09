@@ -39,4 +39,10 @@ The goal of this task is to create a visually appealing and responsive landing p
 ---
 
 ## 📁 Project Structure
+📁 Task1-LandingPage/
+│── index.html
+│── style.css
+│── script.js
+│── images/
+│── README.md
 
