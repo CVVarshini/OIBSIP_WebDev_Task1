@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f7f7f7;
+    color: #1d2a35;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0d4d4d;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1d2a35;
+    font-weight: 500;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background: #008060;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(to bottom, #ffe8d6, #fff);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 60px;
+    gap: 30px;
+}
+
+.feature-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.feature-box img {
+    width: 120px;
+    height: 120px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    padding: 40px 30px;
+}
+
+.advantage {
+    width: 30%;
+    text-align: center;
+}
+
+.servers {
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.map {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.server-stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.server-stats div {
+    margin: 0 30px;
+}
+
+.server-stats h3 {
+    font-size: 32px;
+    color: #008060;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #0d4d4d;
+    color: white;
+}
